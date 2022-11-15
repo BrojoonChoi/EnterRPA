@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "New_RPA_Editor/1.0.0": {
+        "runtime": {
+          "New_RPA_Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "New_RPA_Editor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

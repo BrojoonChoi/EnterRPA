@@ -1,0 +1,26 @@
+System:::시스템 창에 결과를 출력합니다:::Print:::
+System:::ms만큼 대기합니다.:::Wait:::
+Image:::특정 이미지를 찾아 마우스를 이동합니다. 0일 경우 이미지를 찾을 때까지 반복합니다.:::WaitImage:::Path:::Repeat:::
+Image:::특정 이미지가 존재한다면 대기합니다.:::WaitImageIf:::Path:::
+OCR:::직사각형 범위 내에 있는 글자를 읽어 Target에 저장합니다.:::ReadOCR:::Start X:::Start Y:::End X:::End Y:::Target:::
+Math:::각 피연산자들을 연산자로 계산하여 Target에 저장합니다.:::Math:::Operator:::Operand1:::Operand2:::Target:::
+Math:::날짜를 처리하여 계산한 뒤 Target에 저장합니다.:::Calendar:::Operator:::Operand1:::Operand2:::Target:::
+Logic:::마지막 실행 결과를 변수 이름에 저장합니다.:::Set:::
+Logic:::변수 이름을 기반으로 값을 불러옵니다. Get//으로도 불러올 수 있습니다.:::Get:::
+Input:::마우스 액션을 취합니다.:::Mouse:::Action:::X Position:::Y Position:::
+Input:::키보드를 입력합니다:::Keyboard:::
+Logic:::조건1과 조건2를 비교하여 참, 거짓에 따른 결과를 수행합니다.:::If:::Category:::Action:::Condition1:::Condition2:::
+Logic:::참일 경우 시작합니다.:::TRUE_START
+Logic:::참 종료.:::TRUE_END
+Logic:::거짓일 경우 시작합니다.:::FALSE_START
+Logic:::거짓 종료.:::FALSE_END
+Logic:::Count 수만큼 반복합니다.:::For:::Count
+Logic:::반복 시작:::FOR_START
+Logic:::반복 끝:::FOR_END
+Python:::Python 파일을 실행합니다.:::PythonExe:::FileName:::
+Office:::이메일을 발송합니다.:::SendEmail:::To:::CC:::Title:::Body:::Attachment:::
+Office:::Excel 파일을 불러옵니다.:::ExcelFileOpen:::Path:::
+Office:::Excel 파일의 특정 셀을 읽어 Target에 저장합니다.:::ExcelReadCell:::Sheet:::Column:::Row:::Target:::
+Office:::Excel 파일을 특정 셀에 값을 기록합니다.:::ExcelWriteCell:::Sheet:::Column:::Row:::Value:::
+Web:::Link로 이동합니다.:::WebMove:::
+Web:::Element를 클릭합니다.:::WebClick:::Action:::ElementName:::ElementType:::

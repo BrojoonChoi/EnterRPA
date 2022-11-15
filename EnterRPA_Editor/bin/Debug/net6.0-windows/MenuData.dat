@@ -1,0 +1,9 @@
+Mouse:::LClick:::LDown:::LUp:::RClick:::RDown:::RUp:::Move:::MoveRef
+If:::Number:::Text:::Date
+Number:::==:::>:::>=:::<:::<=
+Text:::==
+Date:::==:::>:::>=:::<:::<=
+Math:::+:::-:::*:::/
+Calendar:::Begin:::End:::Year:::Month:::Week:::Day
+WebType:::XPath:::Id:::ClassName
+WebClick:::LClick:::RClick
